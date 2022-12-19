@@ -140,7 +140,7 @@ Example: if the snake go up and if the player move the joystick down, then the s
 
 </details>
 
-<details><summary><h2> Pictures setup</h2></summary><br/>
+<details><summary><h2>📷 Pictures setup 📷</h2></summary><br/>
 
 1. Up View
 <img src="https://github.com/postolache-andreea-miruna/SnakeGameRobotics/blob/d0310ed8651a35bc93e173043e3ed77a8f9e00a7/materials/setup1up.jpg" width=50% height=50%>
