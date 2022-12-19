@@ -121,67 +121,106 @@ Example: if the snake go up and if the player move the joystick down, then the s
 ## Video
 
 
-# Task Requirements
+
+<details><summary><h1>Task Requirements</h1></summary><br/>
 
 This project contains two parts: menu and main game - Snake.
 
 - Menu Requirements
 
 	- Intro message
+
 	- Start Game
+
 		- while playing show details
+
 		- screen upon game endind with input in order to move on
+
 		- informs the player whn highscore is achieved
+
 		- enter name for highscore
+
 	- Highscore: top 5 in eeprom with name and score
+
 	- Settings:
+
 		- Starting difficulty
+
 		- LCD contrast control (eeprom)
+
 		- LCD brightness control (eeprom)
+
 		- Matrix brightness control (eeprom)
+
 		- Sound control on/off (eeprom)
+
 		- Reset high scores button in settings
+
 	- About: 
+
 		- github user
+
 		- developer name
+
 		- game name
+
 	- How to play: short description
+
 	- Navigation style: different "picture" on the matrix for each menu category
 
 - Game Requirements
 	
 	- Sounds upon interaction (eating, collision)
+
 	- Make sense on a 8x8 matrix
+
 	- Difficulty progresses
+
 	- Reasonables game length
+
 	- no bugs
 
-# Game Menu
+</details>
+<details><summary><h1>Game Menu</h1></summary><br/>
 
 - Start Game
+
 - High Score
+
 - Settings
 
 	- Difficulty
+
 	- LCD contrast
+
 	- LCD bright
+
 	- Matrix bright
+
 	- Sounds
+
 	- Reset HS 
+
 	- Speed
+
 	- Back to menu
  
 - About
+
 - How to play
 
 ## EEPROM
+
 <img src="https://github.com/postolache-andreea-miruna/SnakeGameRobotics/blob/9a4252a5e2106c914e764ddb02c3213340dcc4a4/materials/eeprom.png" width=100% height=100%>
 
 ## Menu informations
 
 In the menu the player must move with the joystick up or down. To acces a part of the menu, the player must move the joystick to the right.
+
 In the case of Settings menu to acces a part of it, the player must move the joystick to right.
+
 - If the player wants to save a value then the joystick must be pressed, else, 
+
 - If the player just want to look on the value that was saved and she/he does not want to modify it, the player must move the joystick to left after she/he watching.
 
 
@@ -189,24 +228,32 @@ In the case of Settings menu to acces a part of it, the player must move the joy
 ## Pictures for each category:
 
 1. Intro message:
+
 <img src="https://github.com/postolache-andreea-miruna/SnakeGameRobotics/blob/109c6ce8ed2d055325cbea4da60bb3ed90f4321e/materials/greeting.png" width=30% height=30%>
 
 2. Start Game:
+
 <img src="https://github.com/postolache-andreea-miruna/SnakeGameRobotics/blob/109c6ce8ed2d055325cbea4da60bb3ed90f4321e/materials/game.png" width=30% height=30%>
 
 3. Highscore:
+
 <img src="https://github.com/postolache-andreea-miruna/SnakeGameRobotics/blob/109c6ce8ed2d055325cbea4da60bb3ed90f4321e/materials/crown.png" width=30% height=30%>
 
 4. Settings:
+
 <img src="https://github.com/postolache-andreea-miruna/SnakeGameRobotics/blob/109c6ce8ed2d055325cbea4da60bb3ed90f4321e/materials/setting.png" width=30% height=30%>
 
 5. About:
+
 <img src="https://github.com/postolache-andreea-miruna/SnakeGameRobotics/blob/109c6ce8ed2d055325cbea4da60bb3ed90f4321e/materials/about.png" width=30% height=30%>
 
 6. How to play:
+
 <img src="https://github.com/postolache-andreea-miruna/SnakeGameRobotics/blob/109c6ce8ed2d055325cbea4da60bb3ed90f4321e/materials/howToPlay.png" width=30% height=30%>
 
+</details>
 
-## Bugs
+<details><summary><h2>Bug</h2></summary><br/>
 
 Sometimes when you take an action with the joystick (up/down/left/right/press) it will not work at first try.
+</details>
