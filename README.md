@@ -112,7 +112,7 @@ Example: if the snake go up and if the player move the joystick down, then the s
 
 
 
-<details><summary><h2>Used Components</h2></summary><br/>
+<details><summary><h2>🔌Used Components🔌</h2></summary><br/>
 
 - breadbord
 
@@ -149,7 +149,7 @@ Example: if the snake go up and if the player move the joystick down, then the s
 <img src="https://github.com/postolache-andreea-miruna/SnakeGameRobotics/blob/d0310ed8651a35bc93e173043e3ed77a8f9e00a7/materials/setup2side.jpg" width=50% height=50%>
 </details>
 
-<details><summary><h2>Connections</h2></summary><br/>
+<details><summary><h2>⛓️ Connections ⛓️</h2></summary><br/>
 
 - Matrix Common Cathod
 
