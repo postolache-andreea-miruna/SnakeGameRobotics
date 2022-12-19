@@ -329,6 +329,5 @@ Sometimes when the player takes an action with the joystick (up/down/left/right/
 
 ## [Code](https://github.com/postolache-andreea-miruna/SnakeGameRobotics/tree/main/GoodSnakeGame)
 
-## How it works
 
-[<h2> Video </h2>](https://youtu.be/-DTUhpgvS4s)
+## [How it works video](https://youtu.be/-DTUhpgvS4s)
