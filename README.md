@@ -4,7 +4,7 @@ Program in Arduino written for Unibuc FMI course: Introduction to robotics.
 
 # Documentation
 
-## Introduction
+## <details><summary>Introduction</summary><br/>
 
 For matrix project I chose to do snake game, because I liked to play this game when I was little.
 
@@ -21,7 +21,7 @@ For snake game I let the player to choose one of the 3 difficulties for which it
 <img src="https://github.com/postolache-andreea-miruna/SnakeGameRobotics/blob/fd63454a412a468ebef797163da232a81cd7c0f1/materials/hardMatrix.png" width=30% height=30%>
 
  Also the player can choose the speed (10 or 20 or 30) with which the snake will accelerate when its length is a multiple of 4.
-
+</details>
 
 ## Game description
 
