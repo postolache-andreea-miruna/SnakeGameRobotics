@@ -331,4 +331,4 @@ Sometimes when the player takes an action with the joystick (up/down/left/right/
 
 ## How it works
 
-[Video](https://youtu.be/-DTUhpgvS4s)
+## [Video](https://youtu.be/-DTUhpgvS4s)
