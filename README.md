@@ -2,8 +2,9 @@
 Program in Arduino written for Unibuc FMI course: Introduction to robotics.
 
 
+# Documentation
 
-<details><summary> Introduction</summary><br/>
+<details><summary><h2> Introduction</h2></summary><br/>
 
 For matrix project I chose to do snake game, because I liked to play this game when I was little.
 
@@ -22,7 +23,9 @@ For snake game I let the player to choose one of the 3 difficulties for which it
  Also the player can choose the speed (10 or 20 or 30) with which the snake will accelerate when its length is a multiple of 4.
 </details>
 
-## Game description
+
+
+<details><summary><h2>Game description</h2></summary><br/>
 
 At the beggining of the game the snake has the length of 2 and it stays on first row and the head is on column 3.
 
@@ -33,19 +36,21 @@ After eating, the snake length will increase and also when the length is a multi
 The speed that it will move depends on the speed that was chosen by the player.
 
 Based on the chosen speed and difficulty the score will increase differently.
+</details>
 
 
-## Instruction on how to play
+<details><summary><h2>Instruction on how to play</h2></summary><br/>
 
 For this game the player must use the joystick to make the snake to change its direction: up, down, left, right.
 
 Also if the snake moves in a way, I can not make it to go in the oposite way with just one joystick move. 
 
 Example: if the snake go up and if the player move the joystick down, then the snake does not change its direction.
+</details>
 
 
-## Used Components
 
+<details><summary><h2>Used Components</h2></summary><br/>
 - breadbord
 - Arduino Uno
 - 1 MAX7219 Driver
@@ -58,18 +63,18 @@ Example: if the snake go up and if the player move the joystick down, then the s
 - 1 ceramic capacitor of 104 pF
 - wires
 - resistors
+</details>
 
-
-## Picture setup
+<details><summary><h2> Pictures setup</h2></summary><br/>
 
 1. Up View
 <img src="https://github.com/postolache-andreea-miruna/SnakeGameRobotics/blob/d0310ed8651a35bc93e173043e3ed77a8f9e00a7/materials/setup1up.jpg" width=50% height=50%>
 
 2. Side View
 <img src="https://github.com/postolache-andreea-miruna/SnakeGameRobotics/blob/d0310ed8651a35bc93e173043e3ed77a8f9e00a7/materials/setup2side.jpg" width=50% height=50%>
+</details>
 
-
-## Connections
+<details><summary><h2>Connections</h2></summary><br/>
 
 - Matrix Common Cathod
 
@@ -95,9 +100,11 @@ Example: if the snake go up and if the player move the joystick down, then the s
 
 <img src="https://github.com/postolache-andreea-miruna/IntroductionToRobotics/blob/306fd6581a411fb0410732c41ad6df798d0b594d/Homework5/lcdconect.png" width=50% height=50%>
 
+</details>
 
 
 ## Video
+
 
 # Task Requirements
 
