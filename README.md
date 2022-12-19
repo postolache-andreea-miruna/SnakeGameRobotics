@@ -72,7 +72,7 @@ Example: if the snake go up and if the player move the joystick down, then the s
 
 ## Connections
 
-- Common Cathod
+- Matrix Common Cathod
 
 <img src="https://github.com/postolache-andreea-miruna/IntroductionToRobotics/blob/a9754a096874029d0d95e6474ce6ebd501884944/Matrix/commonCathod.png" width=50% height=50%>
 
@@ -87,7 +87,7 @@ Example: if the snake go up and if the player move the joystick down, then the s
 <img src="https://github.com/postolache-andreea-miruna/IntroductionToRobotics/blob/a9754a096874029d0d95e6474ce6ebd501884944/Matrix/matrixToDriver.png" width=50% height=50%>
 
 
-- How to connest Driver to Arduino
+- How to connect Driver to Arduino
 
 <img src="https://github.com/postolache-andreea-miruna/IntroductionToRobotics/blob/a9754a096874029d0d95e6474ce6ebd501884944/Matrix/DriverArduino.png" width=50% height=50%>
 
