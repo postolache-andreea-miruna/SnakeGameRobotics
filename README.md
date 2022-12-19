@@ -201,11 +201,6 @@ Example: if the snake go up and if the player move the joystick down, then the s
 </details>
 
 
-## Video
-
-## [Code](https://github.com/postolache-andreea-miruna/SnakeGameRobotics/tree/main/GoodSnakeGame)
-
-
 <details><summary><h2>🎮 Game Menu 🎮</h2></summary><br/>
 
 - Start Game
@@ -329,3 +324,11 @@ Also, if the player just want to look on the value that was saved and she/he doe
 
 Sometimes when the player takes an action with the joystick (up/down/left/right/press) it will not work at first try.
 </details>
+
+
+
+## [Code](https://github.com/postolache-andreea-miruna/SnakeGameRobotics/tree/main/GoodSnakeGame)
+
+## How it works
+
+[Video](https://youtu.be/-DTUhpgvS4s)
