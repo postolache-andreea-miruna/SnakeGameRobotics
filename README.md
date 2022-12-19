@@ -4,7 +4,7 @@ Program in Arduino written for Unibuc FMI course: Introduction to robotics.
 
 # Documentation
 
-<details><summary>##Introduction</summary><br/>
+<details><summary> ## Introduction</summary><br/>
 
 For matrix project I chose to do snake game, because I liked to play this game when I was little.
 
