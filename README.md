@@ -13,8 +13,11 @@ My game is inspired from the original snake and also from the game snake that ca
 
 For snake game I let the player to choose one of the 3 difficulties for which it corresponds a map: 
 - EASY,
-- MEDIUM, 
+<img src="https://github.com/postolache-andreea-miruna/SnakeGameRobotics/blob/fd63454a412a468ebef797163da232a81cd7c0f1/materials/easyMatrix.png" width=50% height=50%>
+- MEDIUM,
+<img src="https://github.com/postolache-andreea-miruna/SnakeGameRobotics/blob/fd63454a412a468ebef797163da232a81cd7c0f1/materials/mediumMatrix.png" width=50% height=50%> 
 - HARD.
+<img src="https://github.com/postolache-andreea-miruna/SnakeGameRobotics/blob/fd63454a412a468ebef797163da232a81cd7c0f1/materials/hardMatrix.png" width=50% height=50%>
 
  Also the player can choose the speed (10 or 20 or 30) with which the snake will accelerate when its length is a multiple of 4.
 
