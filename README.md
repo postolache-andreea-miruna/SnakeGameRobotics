@@ -257,5 +257,5 @@ In the case of Settings menu to acces a part of it, the player must move the joy
 
 <details><summary><h2>🐛 Bug 🐛</h2></summary><br/>
 
-Sometimes when the plyer takes an action with the joystick (up/down/left/right/press) it will not work at first try.
+Sometimes when the player takes an action with the joystick (up/down/left/right/press) it will not work at first try.
 </details>
