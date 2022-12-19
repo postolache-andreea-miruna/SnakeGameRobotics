@@ -121,6 +121,8 @@ Based on the chosen speed and difficulty the score will increase differently:
 |20              | + 2   | + 3    | + 4  |
 |30              | + 3   | + 4    | + 5  |
 
+While playing, on the LCD there are displayed informations about: HS, score and level (level means the difficulty chosen by the player)
+
 </details>
 
 
