@@ -45,7 +45,7 @@ Based on the chosen speed and difficulty the score will increase differently.
 
 For this game the player must use the joystick to make the snake to change its direction: up, down, left, right.
 
-Also if the snake moves in a way, I can not make it to go in the oposite way with just one joystick move. 
+Also if the snake moves in a way, the player can not make it to go in the oposite way with just one joystick move. 
 
 Example: if the snake go up and if the player move the joystick down, then the snake does not change its direction.
 </details>
@@ -53,18 +53,31 @@ Example: if the snake go up and if the player move the joystick down, then the s
 
 
 <details><summary><h2>Used Components</h2></summary><br/>
+
 - breadbord
+
 - Arduino Uno
+
 - 1 MAX7219 Driver
+
 - 1 joystick
+
 - 1 led matrix display (8x8)
+
 - 1 16x2 LCD
+
 - 1 buzzer
+
 - 1 electrolytic capacitor of 10 μF
+
 - 1 electrolytic capacitor of 50 μF
+
 - 1 ceramic capacitor of 104 pF
+
 - wires
+
 - resistors
+
 </details>
 
 <details><summary><h2> Pictures setup</h2></summary><br/>
