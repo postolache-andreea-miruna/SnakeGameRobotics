@@ -9,12 +9,12 @@ For matrix project I chose to do snake game, because I liked to play this game w
 
 My game is inspired from the original snake and also from the game snake that can be found in "Brick Game 9999 in 1".
 
-### How I bulit the game?
+### How I built the game?
 
 For snake game I let the player to choose one of the 3 difficulties for which it corresponds a map: 
-	- EASY,
-	- MEDIUM, 
-	- HARD.
+- EASY,
+- MEDIUM, 
+- HARD.
 
  Also the player can choose the speed (10 or 20 or 30) with which the snake will accelerate when its length is a multiple of 4.
 
