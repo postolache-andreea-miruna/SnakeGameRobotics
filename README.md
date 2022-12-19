@@ -183,7 +183,7 @@ Example: if the snake go up and if the player move the joystick down, then the s
 
 
 
-<details><summary><h1>Game Menu</h1></summary><br/>
+<details><summary><h2>Game Menu</h2></summary><br/>
 
 - Start Game
 
