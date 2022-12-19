@@ -72,7 +72,20 @@ My game is inspired from the original snake and also from the game snake that ca
 
 ### How I built the game?
 
-For snake game I let the player to choose one of the 3 difficulties for which it corresponds a map: 
+Thinking steps:
+
+- I want a snake game with 3 types of difficulty and 3 types of speeds.
+
+- I want that my snake to pass through "matrix walls"
+
+- I want that my snake to increase in length while eating. (when the length is a multiple of 4 the sanke move faster with speed value)
+
+- I want that my snake to die when hitting itself or the walls (medium and hard difficulty).
+
+- I want to increase the score different based on difficulty and speed that was chosen.
+
+
+So I let the player to choose one of the 3 difficulties for which it corresponds a map: 
 - EASY 😊,
 <img src="https://github.com/postolache-andreea-miruna/SnakeGameRobotics/blob/fd63454a412a468ebef797163da232a81cd7c0f1/materials/easyMatrix.png" width=30% height=30%>
 
@@ -83,6 +96,8 @@ For snake game I let the player to choose one of the 3 difficulties for which it
 <img src="https://github.com/postolache-andreea-miruna/SnakeGameRobotics/blob/fd63454a412a468ebef797163da232a81cd7c0f1/materials/hardMatrix.png" width=30% height=30%>
 
  Also the player can choose the speed (10 or 20 or 30) with which the snake will accelerate when its length is a multiple of 4.
+
+ 
 </details>
 
 
@@ -97,7 +112,15 @@ After eating, the snake length will increase and also when the length is a multi
 
 The speed that it will move depends on the speed that was chosen by the player.
 
-Based on the chosen speed and difficulty the score will increase differently.
+Based on the chosen speed and difficulty the score will increase differently:
+ 
+
+|Speed/Difficulty| Easy  | Medium | Hard |
+|:---            | :---: | :----: | ---: |
+|10              | + 1   | + 2    | + 3  |
+|20              | + 2   | + 3    | + 4  |
+|30              | + 3   | + 4    | + 5  |
+
 </details>
 
 
@@ -219,7 +242,7 @@ Example: if the snake go up and if the player move the joystick down, then the s
 
 In the menu the player must move with the joystick up or down. To acces a part of the menu, the player must move the joystick to the right.
 
-In the case of Settings menu to acces a part of it, the player must move the joystick to right.
+In the case of Settings menu to acces a part of it, the player must move the joystick to right (except Reset HS where the playere just need to press the joystick).
 
 - If the player wants to save a value then the joystick must be pressed, else, 
 
