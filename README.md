@@ -99,6 +99,33 @@ This project contains two parts: menu and main game - Snake.
 	- How to play: short description
 	- Navigation style: different "picture" on the matrix for each menu category
 
+- Game Requirements
+	
+	- Sounds upon interaction (eating, collision)
+	- Make sense on a 8x8 matrix
+	- Difficulty progresses
+	- Reasonables game length
+	- no bugs
+
+# Game Menu
+
+- Start Game
+- High Score
+- Settings
+
+	- Difficulty
+	- LCD contrast
+	- LCD bright
+	- Matrix bright
+	- Sounds
+	- Reset HS 
+	- Speed
+	- Back to menu
+ 
+- About
+- How to play
+
+
 ## Pictures for each category:
 
 1. Intro message:
@@ -118,6 +145,7 @@ This project contains two parts: menu and main game - Snake.
 
 6. How to play:
 <img src="https://github.com/postolache-andreea-miruna/SnakeGameRobotics/blob/109c6ce8ed2d055325cbea4da60bb3ed90f4321e/materials/howToPlay.png" width=30% height=30%>
+
 
 ## EEPROM
 <img src="https://github.com/postolache-andreea-miruna/SnakeGameRobotics/blob/9a4252a5e2106c914e764ddb02c3213340dcc4a4/materials/eeprom.png" width=100% height=100%>
