@@ -46,10 +46,11 @@ Example: if the snake go up and if the player move the joystick down, then the s
 
 ## Used Components
 - breadbord
-- arduino uno
+- Arduino Uno
 - 1 MAX7219 Driver
 - 1 joystick
-- 1 matrix display
+- 1 led matrix display (8x8)
+- 1 16x2 LCD
 - 1 buzzer
 - 1 electrolytic capacitor of 10 μF
 - 1 electrolytic capacitor of 50 μF
