@@ -99,4 +99,23 @@ This project contains two parts: menu and main game - Snake.
 	- How to play: short description
 	- Navigation style: different "picture" on the matrix for each menu category
 
+## Pictures for each category:
+
+1. Intro message:
+<img src="https://github.com/postolache-andreea-miruna/SnakeGameRobotics/blob/109c6ce8ed2d055325cbea4da60bb3ed90f4321e/materials/greeting.png" width=30% height=30%>
+
+2. Start Game:
+<img src="https://github.com/postolache-andreea-miruna/SnakeGameRobotics/blob/109c6ce8ed2d055325cbea4da60bb3ed90f4321e/materials/game.png" width=30% height=30%>
+
+3. Highscore:
+<img src="https://github.com/postolache-andreea-miruna/SnakeGameRobotics/blob/109c6ce8ed2d055325cbea4da60bb3ed90f4321e/materials/crown.png" width=30% height=30%>
+
+4. Settings:
+<img src="https://github.com/postolache-andreea-miruna/SnakeGameRobotics/blob/109c6ce8ed2d055325cbea4da60bb3ed90f4321e/materials/setting.png" width=30% height=30%>
+
+5. About:
+<img src="https://github.com/postolache-andreea-miruna/SnakeGameRobotics/blob/109c6ce8ed2d055325cbea4da60bb3ed90f4321e/materials/about.png" width=30% height=30%>
+
+6. How to play:
+<img src="https://github.com/postolache-andreea-miruna/SnakeGameRobotics/blob/109c6ce8ed2d055325cbea4da60bb3ed90f4321e/materials/howToPlay.png" width=30% height=30%>
 
