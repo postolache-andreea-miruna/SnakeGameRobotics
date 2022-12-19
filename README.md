@@ -120,5 +120,5 @@ This project contains two parts: menu and main game - Snake.
 <img src="https://github.com/postolache-andreea-miruna/SnakeGameRobotics/blob/109c6ce8ed2d055325cbea4da60bb3ed90f4321e/materials/howToPlay.png" width=30% height=30%>
 
 ## EEPROM
-<img src="https://github.com/postolache-andreea-miruna/SnakeGameRobotics/blob/9a4252a5e2106c914e764ddb02c3213340dcc4a4/materials/eeprom.png" width=60% height=100%>
+<img src="https://github.com/postolache-andreea-miruna/SnakeGameRobotics/blob/9a4252a5e2106c914e764ddb02c3213340dcc4a4/materials/eeprom.png" width=100% height=100%>
 
