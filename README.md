@@ -15,8 +15,10 @@ My game is inspired from the original snake and also from the game snake that ca
 For snake game I let the player to choose one of the 3 difficulties for which it corresponds a map: 
 - EASY,
 <img src="https://github.com/postolache-andreea-miruna/SnakeGameRobotics/blob/fd63454a412a468ebef797163da232a81cd7c0f1/materials/easyMatrix.png" width=30% height=30%>
+
 - MEDIUM,
 <img src="https://github.com/postolache-andreea-miruna/SnakeGameRobotics/blob/fd63454a412a468ebef797163da232a81cd7c0f1/materials/mediumMatrix.png" width=30% height=30%> 
+
 - HARD.
 <img src="https://github.com/postolache-andreea-miruna/SnakeGameRobotics/blob/fd63454a412a468ebef797163da232a81cd7c0f1/materials/hardMatrix.png" width=30% height=30%>
 
