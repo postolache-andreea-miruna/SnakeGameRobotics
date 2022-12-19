@@ -2,6 +2,66 @@
 Program in Arduino written for Unibuc FMI course: Introduction to robotics.
 
 
+<details><summary><h1>Task Requirements</h1></summary><br/>
+
+This project contains two parts: menu and main game - Snake.
+
+- Menu Requirements
+
+	- Intro message
+
+	- Start Game
+
+		- while playing show details
+
+		- screen upon game endind with input in order to move on
+
+		- informs the player whn highscore is achieved
+
+		- enter name for highscore
+
+	- Highscore: top 5 in eeprom with name and score
+
+	- Settings:
+
+		- Starting difficulty
+
+		- LCD contrast control (eeprom)
+
+		- LCD brightness control (eeprom)
+
+		- Matrix brightness control (eeprom)
+
+		- Sound control on/off (eeprom)
+
+		- Reset high scores button in settings
+
+	- About: 
+
+		- github user
+
+		- developer name
+
+		- game name
+
+	- How to play: short description
+
+	- Navigation style: different "picture" on the matrix for each menu category
+
+- Game Requirements
+	
+	- Sounds upon interaction (eating, collision)
+
+	- Make sense on a 8x8 matrix
+
+	- Difficulty progresses
+
+	- Reasonables game length
+
+	- no bugs
+
+</details>
+
 # Documentation
 
 <details><summary><h2> Introduction</h2></summary><br/>
@@ -122,65 +182,7 @@ Example: if the snake go up and if the player move the joystick down, then the s
 
 
 
-<details><summary><h1>Task Requirements</h1></summary><br/>
 
-This project contains two parts: menu and main game - Snake.
-
-- Menu Requirements
-
-	- Intro message
-
-	- Start Game
-
-		- while playing show details
-
-		- screen upon game endind with input in order to move on
-
-		- informs the player whn highscore is achieved
-
-		- enter name for highscore
-
-	- Highscore: top 5 in eeprom with name and score
-
-	- Settings:
-
-		- Starting difficulty
-
-		- LCD contrast control (eeprom)
-
-		- LCD brightness control (eeprom)
-
-		- Matrix brightness control (eeprom)
-
-		- Sound control on/off (eeprom)
-
-		- Reset high scores button in settings
-
-	- About: 
-
-		- github user
-
-		- developer name
-
-		- game name
-
-	- How to play: short description
-
-	- Navigation style: different "picture" on the matrix for each menu category
-
-- Game Requirements
-	
-	- Sounds upon interaction (eating, collision)
-
-	- Make sense on a 8x8 matrix
-
-	- Difficulty progresses
-
-	- Reasonables game length
-
-	- no bugs
-
-</details>
 <details><summary><h1>Game Menu</h1></summary><br/>
 
 - Start Game
@@ -255,5 +257,5 @@ In the case of Settings menu to acces a part of it, the player must move the joy
 
 <details><summary><h2>Bug</h2></summary><br/>
 
-Sometimes when you take an action with the joystick (up/down/left/right/press) it will not work at first try.
+Sometimes when the plyer takes an action with the joystick (up/down/left/right/press) it will not work at first try.
 </details>
