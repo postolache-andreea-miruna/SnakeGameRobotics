@@ -1,8 +1,8 @@
-# SnakeGameRobotics
+# Snake Game 🐍🐍🐍
 Program in Arduino written for Unibuc FMI course: Introduction to robotics.
 
 
-<details><summary><h1>Task Requirements</h1></summary><br/>
+<details><summary><h1>📚 Task Requirements 📚</h1></summary><br/>
 
 This project contains two parts: menu and main game - Snake.
 
@@ -62,24 +62,24 @@ This project contains two parts: menu and main game - Snake.
 
 </details>
 
-# Documentation
+# Documentation ✒️
 
-<details><summary><h2> Introduction</h2></summary><br/>
+<details><summary><h2>🎬 Introduction 🎬</h2></summary><br/>
 
-For matrix project I chose to do snake game, because I liked to play this game when I was little.
+For matrix project I chose to do snake game, because I liked to play this game when I was little 👧.
 
 My game is inspired from the original snake and also from the game snake that can be found in "Brick Game 9999 in 1".
 
 ### How I built the game?
 
 For snake game I let the player to choose one of the 3 difficulties for which it corresponds a map: 
-- EASY,
+- EASY 😊,
 <img src="https://github.com/postolache-andreea-miruna/SnakeGameRobotics/blob/fd63454a412a468ebef797163da232a81cd7c0f1/materials/easyMatrix.png" width=30% height=30%>
 
-- MEDIUM,
+- MEDIUM 😐,
 <img src="https://github.com/postolache-andreea-miruna/SnakeGameRobotics/blob/fd63454a412a468ebef797163da232a81cd7c0f1/materials/mediumMatrix.png" width=30% height=30%> 
 
-- HARD.
+- HARD 😯.
 <img src="https://github.com/postolache-andreea-miruna/SnakeGameRobotics/blob/fd63454a412a468ebef797163da232a81cd7c0f1/materials/hardMatrix.png" width=30% height=30%>
 
  Also the player can choose the speed (10 or 20 or 30) with which the snake will accelerate when its length is a multiple of 4.
@@ -87,11 +87,11 @@ For snake game I let the player to choose one of the 3 difficulties for which it
 
 
 
-<details><summary><h2>Game description</h2></summary><br/>
+<details><summary><h2>🎮 Game description 🎮</h2></summary><br/>
 
 At the beggining of the game the snake has the length of 2 and it stays on first row and the head is on column 3.
 
-The idea of the game is to eat as much as possible without the snake hit itself or the walls ( medium and hard difficulties).
+The idea of the game is to eat 🍴 as much as possible without the snake hit itself or the walls ( medium and hard difficulties).
 
 After eating, the snake length will increase and also when the length is a multiple of 4 the snake will move faster.
 
@@ -101,7 +101,7 @@ Based on the chosen speed and difficulty the score will increase differently.
 </details>
 
 
-<details><summary><h2>Instruction on how to play</h2></summary><br/>
+<details><summary><h2>🎮 Instruction on how to play 🎮</h2></summary><br/>
 
 For this game the player must use the joystick to make the snake to change its direction: up, down, left, right.
 
@@ -120,7 +120,7 @@ Example: if the snake go up and if the player move the joystick down, then the s
 
 - 1 MAX7219 Driver
 
-- 1 joystick
+- 1 joystick 🕹️
 
 - 1 led matrix display (8x8)
 
@@ -183,7 +183,7 @@ Example: if the snake go up and if the player move the joystick down, then the s
 
 
 
-<details><summary><h2>Game Menu</h2></summary><br/>
+<details><summary><h2>🎮 Game Menu 🎮</h2></summary><br/>
 
 - Start Game
 
@@ -255,7 +255,7 @@ In the case of Settings menu to acces a part of it, the player must move the joy
 
 </details>
 
-<details><summary><h2>Bug</h2></summary><br/>
+<details><summary><h2>🐛 Bug 🐛</h2></summary><br/>
 
 Sometimes when the plyer takes an action with the joystick (up/down/left/right/press) it will not work at first try.
 </details>
