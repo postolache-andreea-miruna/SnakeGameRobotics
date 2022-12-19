@@ -240,13 +240,60 @@ Example: if the snake go up and if the player move the joystick down, then the s
 
 ## Menu informations
 
-In the menu the player must move with the joystick up or down. To acces a part of the menu, the player must move the joystick to the right.
+### Main Menu
 
-In the case of Settings menu to acces a part of it, the player must move the joystick to right (except Reset HS where the playere just need to press the joystick).
+After the greeting message that appears on the lcd and the greeting picture on the matrix dissapear on the lcd will appear the main menu.
 
-- If the player wants to save a value then the joystick must be pressed, else, 
+In the main menu the player have to move with the joystick up or down in order to navigate through the main menu.
 
-- If the player just want to look on the value that was saved and she/he does not want to modify it, the player must move the joystick to left after she/he watching.
+To acces a part of the main menu, the player must move the joystick to the right:
+
+In the case of:
+- Start Game the game will start
+
+- High Score it will display top 5 players, it will be initialized with the default 5 names saved in eeprom ("NNNN").
+ The player must move the joystick up or down. After the top is desplayed an exit message and the player can move the joystick to the left to enter in the main menu.
+
+- Settings it will enter in the settings menu that will be shown later in this documentation
+
+- About it will display the informations that can be accessed if the player move the joystick up or down:
+
+	- github user
+
+	- developer name
+
+	- game name
+After that is desplayed an exit message and the player can move the joystick to the left to enter in the main menu.
+
+- How to play it will display the instructions that can be accessed if the player move the joystick up or down.
+After that is desplayed an exit message and the player can move the joystick to the left to enter in the main menu.
+
+### Settings Menu
+
+If the player entered in settings menu, than to navigate through this menu she/he need to move the joystick up or down.
+
+To acces a part of it (except "Reset HS" and "Back to menu"), the player must move the joystick to right.
+
+In the case of "Reset HS" the player just need to press the joystick and the action of reseting the High Scores is done.
+
+In the case of "Back to menu" the player just need to move the joystick to the left to go back to main menu.
+
+For 
+	- Difficulty,
+
+	- LCD contrast,
+
+	- LCD bright,
+
+	- Matrix bright,
+
+	- Sounds,
+
+	- Speed
+
+when the player access one of this part, she/he needs to move the joystick up or down and press when the player want to save that value.
+
+Also, if the player just want to look on the value that was saved and she/he does not want to modify it, the player must move the joystick to left after she/he watching.
 
 
 
