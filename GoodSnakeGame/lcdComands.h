@@ -76,7 +76,7 @@ byte smiley[matrixSize] = {
   0b00000
 };
 byte buttonPress[matrixSize] = {
-	0b00000,
+  0b00000,
 	0b00000,
 	0b00000,
 	0b01110,
