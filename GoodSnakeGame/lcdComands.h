@@ -9,7 +9,6 @@ const byte brightPin = 6;
 const byte contrastPin = 9;
 const byte rowsLCD = 2;
 const byte columnsLCD = 16;
-
 const int menuDelay = 2000;
 const int congratsDelay1 = 1500;
 const int congratsDelay2 = 3000;
@@ -26,7 +25,7 @@ int characterPosition1;
 bool transitionToMenu = false;
 bool toMainMenu = false;
 
-byte doubleArrows[8] = {
+byte doubleArrows[matrixSize] = {
 	0b00100,
 	0b01010,
 	0b10001,
@@ -36,7 +35,7 @@ byte doubleArrows[8] = {
 	0b01010,
 	0b00100
 };
-byte downArrow[8] = {
+byte downArrow[matrixSize] = {
 	0b00000,
 	0b00000,
 	0b00000,
@@ -46,7 +45,7 @@ byte downArrow[8] = {
 	0b00000,
 	0b00000
 };
-byte upArrow[8] = {
+byte upArrow[matrixSize] = {
 	0b00000,
 	0b00000,
 	0b00100,
@@ -56,7 +55,7 @@ byte upArrow[8] = {
 	0b00000,
 	0b00000
 };
-byte heart[8] = {
+byte heart[matrixSize] = {
   0b00000,
   0b01010,
   0b11111,
@@ -66,8 +65,7 @@ byte heart[8] = {
   0b00100,
   0b00000
 };
-
-byte smiley[8] = {
+byte smiley[matrixSize] = {
   0b00000,
   0b00000,
   0b01010,
@@ -77,8 +75,7 @@ byte smiley[8] = {
   0b01110,
   0b00000
 };
-
-byte buttonPress[8] = {
+byte buttonPress[matrixSize] = {
 	0b00000,
 	0b00000,
 	0b00000,
