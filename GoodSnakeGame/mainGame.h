@@ -1,4 +1,4 @@
-int snake[32][2] = {};
+int snake[64][2] = {};
 int wall[6][2] = {};  //wall[][0] = line; wall[][1] = column
 int foodSnake[1][2] = {{0,5}};
 int snakeLength = 2;
