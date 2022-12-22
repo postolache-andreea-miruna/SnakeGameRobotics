@@ -61,7 +61,186 @@ This project contains two parts: menu and main game - Snake.
 	- no bugs
 
 </details>
+<details><summary><h1>📚 Headers 📚</h1></summary><br/>
 
+- EEPROMMemo.h 
+
+	- readFromEEPROM(int addressOffset) function that returns the name of the player
+
+	- updateHighScoreEEPROM(int points)
+
+	- updatePlayerNameEEPROM(String playerName)
+
+	- newHighScore(int points, String playerName)
+
+	- initializeNameAndScores()
+
+	- initialize()
+
+- Menu.h
+
+	- scrollMenu() 
+
+	- menuPart() - what it is shown in main menu
+
+	- menuCommandsSwitch() 
+
+	- startGameMenu()
+
+	- startPlayGame()
+
+	- highScoreMenu()
+
+	- scrollHighScoreMenu()
+
+	- aboutMenu()
+
+	- scrollAboutMenu()
+
+	- howToPlayMenu()
+
+	- scrollHowToPLayMenu()
+
+- Buzzer.h
+
+	- openSound()
+
+	- scroll()
+
+	- deadSound()
+
+	- eatSound()
+	
+- drawMatrix.h - there are matrix for:
+
+	- greetings
+
+	- game
+
+	- crown
+
+	- setting
+
+	- about
+
+	- howToPlay
+
+	- smile
+
+	- and also the function matrixMessage(const byte matrix[matrixSize])
+
+- gameLogic.h
+
+	- function gameStates() that implements the logic for the project
+   
+- joystickMoves.h
+	
+	- joystickUp()
+
+	- joystickDown()
+
+	- joystickLeft()
+	
+	- joystickRight()
+
+	- joystickPress()
+
+- lcdComands.h
+
+	- there are some matrix:
+		
+		- doubleArrows
+
+		- downArrow
+
+		- upArrow
+
+		- heart
+
+		- smiley
+
+		- buttonPress
+
+	- functions:
+
+		- greeting()
+
+		- nameOfThePlayer(int namePos)
+
+		- scoreOfThePlayer(int scorePos)
+
+		- scorePrint(int score)
+
+		- placeNamePlayer()
+
+		- printNamePlayer(String name)
+
+		- goToMenu()
+
+		- congratsScreen()
+
+- mainGame.h
+
+	- turnOnTheWalls()
+
+	- updateMatrix()
+
+	- updatePositions() - for snake
+
+	- foodBlink()
+
+	- isSnakeBody(byte x, byte y) 
+	
+	- isWall(byte x, byte y)
+
+	- generateFood()
+
+	- setupGame()
+
+- player.h
+
+	- blink()
+
+	- printingName()
+
+	- scrollPlayer() - scroll name of the player
+
+- settingsMenu.h
+
+	- scrollSettings()
+
+	- settingsCommandsSwitch()
+	
+	- settingPart()
+
+	- saveToMemory()
+
+	- speedsForSnake()
+
+	- speedMenu()
+
+	- difficulties()
+
+	- difficultyMenu()
+
+	- contrastLCD()
+
+	- contrastMenu()
+
+	- brightLCD()
+
+	- brightLCDMenu()
+
+	- brightMatrix()
+
+	- brightMatrixMenu()
+
+	- sounds()
+
+	- soundMenu()
+
+
+</details>
 # Documentation ✒️
 
 <details><summary><h2>🎬 Introduction 🎬</h2></summary><br/>
