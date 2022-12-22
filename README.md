@@ -241,6 +241,7 @@ This project contains two parts: menu and main game - Snake.
 
 
 </details>
+
 # Documentation ✒️
 
 <details><summary><h2>🎬 Introduction 🎬</h2></summary><br/>
